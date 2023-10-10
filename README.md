@@ -135,9 +135,9 @@ Upon accessing the user account created on mongo-express, it will initially appe
 
 ![image](https://github.com/OluwaTossin/Dockerized-Web-App-with-Node.js-and-MongoDB/assets/121174963/71e1e944-5731-4464-8e46-f92f2852da5c)
 
--In mongo-express UI - create a new database "my-db"
--in mongo-express UI - create a new collection "users" in the database "my-db"
--start node server using the command below:
+- In mongo-express UI - create a new database "my-db"
+- in mongo-express UI - create a new collection "users" in the database "my-db"
+- start node server using the command below:
 
 ![image](https://github.com/OluwaTossin/Dockerized-Web-App-with-Node.js-and-MongoDB/assets/121174963/5ada344c-492b-4545-94ef-a988c1c11646)
 
