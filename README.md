@@ -122,7 +122,7 @@ We can connect to this database from nodejs.
 
 ### Step 5: Connecting Node.js to the Database
 
-Let’s connect nodejs to the database. You can find the code for nodejs [here](https://pages.github.com/](https://gitlab.com/nanuchi/techworld-js-docker-demo-app/-/blob/702626e30bbde652f06b4d31afdd284652cb15a9/app/server.js).
+Let’s connect nodejs to the database. You can find the code for nodejs [here]([https://pages.github.com/](https://gitlab.com/nanuchi/techworld-js-docker-demo-app/-/blob/702626e30bbde652f06b4d31afdd284652cb15a9/app/server.js)).
 
 Run:
 
