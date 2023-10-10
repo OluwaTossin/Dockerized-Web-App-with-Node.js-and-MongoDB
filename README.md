@@ -107,6 +107,7 @@ If you face difficulties logging into MongoDB using the initialized credentials,
 
 ![image](https://github.com/OluwaTossin/Dockerized-Web-App-with-Node.js-and-MongoDB/assets/121174963/c6a3f7b5-446b-4fe4-87be-e911c10b3d18)
 
+The part that says: **basicAuth credentials are.......**
 
 Any discrepancies in the passwords should be addressed, and on rectifying, you should gain access to the mongo-express page at http://localhost:8081/.
 
