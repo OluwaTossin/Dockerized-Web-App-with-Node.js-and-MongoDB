@@ -105,7 +105,7 @@ If you face difficulties logging into MongoDB using the initialized credentials,
 
 `Docker logs 4883726ec7e4d806863ceeffe06d778d2be008a0ad45a1d11dbbe936268e9380`
 
-![image](https://github.com/OluwaTossin/Dockerized-Web-App-with-Node.js-and-MongoDB/assets/121174963/c6a3f7b5-446b-4fe4-87be-e911c10b3d18)
+![image](https://github.com/OluwaTossin/Dockerized-Web-App-with-Node.js-and-MongoDB/assets/121174963/1f6f2613-3094-45ff-b39a-84ce3e43c004)
 
 The part that says: **basicAuth credentials are.......**
 
