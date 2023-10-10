@@ -39,3 +39,43 @@ Retrieve the mongo and mongo-express images with:
 `docker pull mongo`
 
 `docker pull mongo-express`
+
+![image](https://github.com/OluwaTossin/Dockerized-Web-App-with-Node.js-and-MongoDB/assets/121174963/ff39fd3e-f7f5-45e9-9b49-955c4503caae)
+
+![image](https://github.com/OluwaTossin/Dockerized-Web-App-with-Node.js-and-MongoDB/assets/121174963/c958e4da-ecf3-4eae-8cf4-b190b68bc6db)
+
+Verify the local presence of these images using:
+
+`docker images`
+
+Upon success, you'll see the listed images.
+
+![image](https://github.com/OluwaTossin/Dockerized-Web-App-with-Node.js-and-MongoDB/assets/121174963/85cc04fb-8a9c-4c06-bd47-4c6ac63400df)
+
+### Step 2:
+To make MongoDB accessible for the app and link Mongo Express with MongoDB, run both containers. First, interlink the images through a Docker network:
+
+`docker network create mongo-network`
+
+![image](https://github.com/OluwaTossin/Dockerized-Web-App-with-Node.js-and-MongoDB/assets/121174963/ded3d44a-880a-4ac3-9a0e-347c4e6a2d62)
+
+Confirm its creation:
+
+`docker network ls`
+![image](https://github.com/OluwaTossin/Dockerized-Web-App-with-Node.js-and-MongoDB/assets/121174963/d1699945-0d86-45b2-adab-9215af1838b3)
+
+### Step 3:
+To run Mongo Containers:
+
+`docker run -p 27017:27017 -d -e MONGO_INITDB_ROOT_USERNAME=admin -e MONGO_INITDB_ROOT_PASSWORD=password --name MongoDB --net mongo-network mongo`
+
+The above command launches a Mongo container with the specified port and credentials, operating within the earlier created Mongo-network.
+![image](https://github.com/OluwaTossin/Dockerized-Web-App-with-Node.js-and-MongoDB/assets/121174963/fc979bca-ad27-4820-9d53-237e1c774c3c)
+
+
+Verify success using the log command:
+
+`Docker logs 3df02354fa9580e2b6fa9e3282f55e46d278ef259ca17bacb78936f77b4b3ac4`
+
+Finally, kickstart Mongo Express to auto-connect to MongoDB on initialization.
+
