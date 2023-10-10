@@ -122,23 +122,22 @@ We can connect to this database from nodejs.
 
 ### Step 5: Connecting Node.js to the Database
 
-Upon accessing the user account created on mongo-express, it will initially appear empty. Visit http://localhost:3000/ and make the necessary edits.
-
-![image](https://github.com/OluwaTossin/Dockerized-Web-App-with-Node.js-and-MongoDB/assets/121174963/71e1e944-5731-4464-8e46-f92f2852da5c)
-
 Let’s connect nodejs to the database. You can find the code for nodejs [here](https://pages.github.com/](https://gitlab.com/nanuchi/techworld-js-docker-demo-app/-/blob/702626e30bbde652f06b4d31afdd284652cb15a9/app/server.js).
 
--In mongo-express UI - create a new database "my-db"
--in mongo-express UI - create a new collection "users" in the database "my-db"
--start node server using the command below:
+Run:
 
 `npm install`
 
 `node server.js`
 
-Navigate to:
-http://localhost:3000/
-Make edits:
+Visit http://localhost:3000/ 
+Upon accessing the user account created on mongo-express, it will initially appear empty.  Make edits.
+
+![image](https://github.com/OluwaTossin/Dockerized-Web-App-with-Node.js-and-MongoDB/assets/121174963/71e1e944-5731-4464-8e46-f92f2852da5c)
+
+-In mongo-express UI - create a new database "my-db"
+-in mongo-express UI - create a new collection "users" in the database "my-db"
+-start node server using the command below:
 
 ![image](https://github.com/OluwaTossin/Dockerized-Web-App-with-Node.js-and-MongoDB/assets/121174963/5ada344c-492b-4545-94ef-a988c1c11646)
 
