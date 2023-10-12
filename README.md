@@ -162,3 +162,5 @@ A snippet of the log activity should display as follows:
 Upon completion, you'll have a Node.js application with MongoDB persistence. Additionally, the Mongo UI, both encapsulated within Docker containers, offers a perfect representation of local development using Docker.
 
 This setup exemplifies the efficient and streamlined local development potential offered by Docker containers.
+
+Credits: [Nana Janashia](https://www.linkedin.com/in/nana-janashia/)
